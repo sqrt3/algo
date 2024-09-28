@@ -9,7 +9,7 @@ int main() {
     long long sum = 0;
     cin >> cnt;
 
-    int dist[100000], price[100000];
+    long long dist[100000], price[100000];
 
     for (int i = 0; i < cnt - 1; ++i) {
         cin >> dist[i];
