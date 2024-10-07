@@ -27,7 +27,7 @@ int main() {
             if (b == i) { b++; continue; }
             if (e == i) { e--; continue; }
 
-            int sum = m[b] + m[e];
+            const int sum = m[b] + m[e];
             if (sum == m[i]) {
                 cnt++;
                 found.insert(m[i]);
